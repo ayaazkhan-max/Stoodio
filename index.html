@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- PAGE LOADER -->
+  <div id="page-loader">
+    <div class="loader-content">
+      <h1 id="loader-count">0%</h1>
+
+      <div class="loader-line">
+        <span id="loader-progress"></span>
+      </div>
+    </div>
+  </div>
+
+
+
+  <header class="header reveal-header" class="header">
+    <div class="logo">🎵 <span>BrothersStoodio</span></div>
+
+    <div class="nav-wrapper" id="navWrapper">
+      <nav class="nav">
+        <a href="#home">Home</a>
+        <a href="#services">Services</a>
+        <a href="#reviews">Reviews</a>
+        <a href="#booking">Booking</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <a href="#booking" class="mobile-book-btn">Book Now</a>
+    </div>
+
+    <div class="menu" id="menu">
+      <i class="fa-solid fa-bars"></i>
+    </div>
+  </header>
+
+
+  <section class="hero" id="home">
+    <div class="overlay"></div>
+    <div class="audio-waves">
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+
+
+    <div class="hero-content reveal-hero" class="hero-content">
+      <span class="badge">🎧 Professional Music Production</span>
+
+      <h1>
+        Craft Your <br>
+        <span>Perfect Sound</span>
+      </h1>
+
+      <p>
+        From beats to masterpieces. Professional mixing, mastering,
+        and production services that bring your musical vision to life.
+      </p>
+
+      <div class="hero-buttons">
+        <button class="btn-primary"><a href="#booking">Book a Session ▶</a></button>
+        <button class="btn-outline"><a href="#services">Explore Services</a></button>
+      </div>
+
+      <div class="stats">
+        <div>
+          <h3>100+</h3>
+          <p>Projects</p>
+        </div>
+        <div>
+          <h3>10+</h3>
+          <p>Years</p>
+        </div>
+        <div>
+          <h3>100%</h3>
+          <p>Satisfaction</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+  <section class="services" id="services">
+    <span class="section-badge">What We Offer</span>
+    <h2>Our <span>Services</span></h2>
+    <p class="section-desc">
+      Professional audio services designed to elevate your sound and bring your creative vision to life.
+    </p>
+
+    <div class="services-grid">
+
+      <!-- Card 1 -->
+      <div class="service-card">
+        <div class="icon">🎵</div>
+        <h3>Music Production</h3>
+        <p>Full-scale production from concept to completion.</p>
+        <ul>
+          <li>Custom Compositions</li>
+          <li>Arrangement</li>
+          <li>Session Musicians</li>
+        </ul>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="service-card">
+        <div class="icon">🎚️</div>
+        <h3>Mixing & Mastering</h3>
+        <p>Industry-standard mixing and mastering.</p>
+        <ul>
+          <li>Stereo Mix</li>
+          <li>Stem Mastering</li>
+          <li>Dolby Atmos</li>
+        </ul>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="service-card">
+        <div class="icon">🎤</div>
+        <h3>Vocal Recording</h3>
+        <p>Professional vocal recording & production.</p>
+        <ul>
+          <li>Recording Sessions</li>
+          <li>Pitch Correction</li>
+          <li>Harmony Stacking</li>
+        </ul>
+      </div>
+
+      <!-- Card 4 -->
+      <div class="service-card">
+        <div class="icon">🎧</div>
+        <h3>Beat Composition</h3>
+        <p>Custom beats tailored to your style.</p>
+        <ul>
+          <li>Trap / Hip-Hop</li>
+          <li>Pop / EDM</li>
+          <li>Custom BPM</li>
+        </ul>
+      </div>
+
+      <!-- Card 5 -->
+      <div class="service-card">
+        <div class="icon">📸</div>
+        <h3>Photo Shooting</h3>
+        <p>Professional photography for artists.</p>
+        <ul>
+          <li>Album Covers</li>
+          <li>Studio Shoots</li>
+          <li>Promotional</li>
+        </ul>
+      </div>
+
+      <!-- Card 6 -->
+      <div class="service-card">
+        <div class="icon">🖼️</div>
+        <h3>Photo Editing</h3>
+        <p>High-end photo retouching & editing.</p>
+        <ul>
+          <li>Color Grading</li>
+          <li>Skin Retouch</li>
+          <li>Background Fix</li>
+        </ul>
+      </div>
+
+      <!-- Card 7 -->
+      <div class="service-card">
+        <div class="icon">🎬</div>
+        <h3>Video Editing</h3>
+        <p>Cinematic video editing services.</p>
+        <ul>
+          <li>Music Videos</li>
+          <li>Reels / Shorts</li>
+          <li>Transitions</li>
+        </ul>
+      </div>
+
+      <!-- Card 8 -->
+      <div class="service-card">
+        <div class="icon">📢</div>
+        <h3>Music Worldwide</h3>
+        <p>Grow your audience organically.</p>
+        <ul>
+          <li>Spotify Boost</li>
+          <li>Social Media</li>
+          <li>Brand Strategy</li>
+        </ul>
+      </div>
+
+    </div>
+
+
+    <div class="services-btn-wrapper">
+      <button class="view-all-btn" id="viewAllServices">View All Services</button>
+    </div>
+  </section>
+
+
+
+
+
+  <section class="client-reviews" id="reviews">
+    <div class="reviews-header">
+      <span class="tag">Testimonials</span>
+      <h2>Client <span>Reviews</span></h2>
+      <p>Watch what our clients have to say about their experience working with us.</p>
+    </div>
+
+    <div class="reviews-grid">
+
+      <!-- CARD 1 -->
+      <div class="review-card">
+        <div class="video-box">
+          <video src="another.mp4"></video>
+          <button class="play-btn">▶</button>
+        </div>
+
+        <div class="review-text">
+          <p>“Absolutely incredible production quality. My tracks have never sounded better!”</p>
+          <h4>Marcus Johnson</h4>
+        </div>
+      </div>
+
+      <!-- CARD 2 -->
+      <div class="review-card">
+        <div class="video-box">
+          <video
+            src="Photography Offer- This weekend Only!Creator - @raj_shrivastav001 Capture your special moments w.mp4"></video>
+          <button class="play-btn">▶</button>
+        </div>
+
+        <div class="review-text">
+          <p>“Professional, creative, and always delivers beyond expectations.”</p>
+          <h4>Sarah Williams</h4>
+        </div>
+      </div>
+
+      <!-- CARD 3 -->
+      <div class="review-card">
+        <div class="video-box">
+          <video
+            src="Music Video Model Feedback 💯🔥Model - @shwetakhatana8 ———————————————-Book your Shoot Now Whats.mp4.mp4"></video>
+          <button class="play-btn">▶</button>
+        </div>
+
+        <div class="review-text">
+          <p>“Best mixing and mastering service I’ve ever used.”</p>
+          <h4>Alex Brown</h4>
+        </div>
+      </div>
+
+      <!-- CARD 4 -->
+      <div class="review-card">
+        <div class="video-box">
+          <video src="ayaaz.mp4"></video>
+          <button class="play-btn">▶</button>
+        </div>
+
+        <div class="review-text">
+          <p>“Highly recommended for any serious music creator.”</p>
+          <h4>Emily Carter</h4>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="booking" id="booking">
+
+    <div class="booking-header">
+      <span class="pill">Book a Session</span>
+      <h1>Ready to <span>Create?</span></h1>
+      <p>
+        Fill out the form below to book your studio session.
+        We'll get back to you within 24 hours to confirm your booking.
+      </p>
+    </div>
+
+    <div class="booking-grid">
+
+
+      <div class="why-book">
+
+        <h3 class="why-title">Why Book With Us?</h3>
+
+        <ul class="why-list">
+          <li>
+            <i class="fa-solid fa-microphone"></i>
+            <span>State-of-the-art recording equipment</span>
+          </li>
+
+          <li>
+            <i class="fa-solid fa-headphones"></i>
+            <span>Experienced sound engineers</span>
+          </li>
+
+          <li>
+            <i class="fa-solid fa-music"></i>
+            <span>Comfortable creative environment</span>
+          </li>
+
+          <li>
+            <i class="fa-regular fa-clock"></i>
+            <span>Flexible scheduling options</span>
+          </li>
+
+          <li>
+            <i class="fa-solid fa-tag"></i>
+            <span>Competitive pricing packages</span>
+          </li>
+        </ul>
+
+      </div>
+
+
+      <!-- RIGHT FORM -->
+      <form class="form-box" id="bookingForm">
+
+        <div class="field">
+          <label>Full Name</label>
+          <input type="text" id="name" placeholder="John Doe" required />
+        </div>
+
+        <div class="field">
+          <label>Email Address</label>
+          <input type="email" id="email" placeholder="john@example.com" required />
+        </div>
+
+        <div class="field">
+          <label>Phone Number</label>
+          <input type="tel" id="phone" placeholder="+91 98765 43210" required />
+        </div>
+
+        <div class="field">
+          <label>Service Type</label>
+          <select id="service" required>
+            <option value="">Select a service</option>
+            <option>Recording</option>
+            <option>Mixing</option>
+            <option>Mastering</option>
+            <option>Podcast</option>
+          </select>
+        </div>
+
+        <div class="field">
+          <label>Preferred Date</label>
+          <input type="date" id="date" required />
+        </div>
+
+        <div class="field">
+          <label>Preferred Time</label>
+          <input type="time" id="time" required />
+        </div>
+
+        <div class="field full">
+          <label>Additional Details</label>
+          <textarea id="message" placeholder="Tell us about your project..."></textarea>
+        </div>
+
+        <button type="submit" class="whatsapp-btn">
+          <i class="fa-brands fa-whatsapp"></i> Book Session
+        </button>
+
+
+      </form>
+
+    </div>
+  </section>
+
+
+  <!-- footer -->
+  <footer class="footer" id="contact">
+    <div class="footer-container">
+
+      <!-- Brand -->
+      <div class="footer-box">
+        <div class="logo">
+          <span class="icon">🎵</span>
+          <h2>BrothersStoodio</h2>
+        </div>
+        <p>
+          Professional music production, mixing, and mastering services.
+          Bringing your sound to life with passion and precision.
+        </p>
+
+        <div class="social-icons">
+          <a href="https://www.instagram.com/brothers_stoodio?igsh=MmdtM3k4b3kweWMz" target="_blank">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+          <a href="https://twitter.com/" target="_blank">
+            <i class="fa-brands fa-twitter"></i>
+          </a>
+          <a href="https://youtube.com/" target="_blank">
+            <i class="fa-brands fa-youtube"></i>
+          </a>
+        </div>
+      </div>
+
+      <!-- Quick Links -->
+      <div class="footer-box">
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#reviews">Reviews</a></li>
+          <li><a href="#booking">Booking</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+
+      <!-- Services -->
+      <div class="footer-box">
+        <h3>Services</h3>
+        <ul>
+          <li>Music Production</li>
+          <li>Mixing & Mastering</li>
+          <li>Beat Making</li>
+          <li>Sound Design</li>
+        </ul>
+      </div>
+
+      <!-- Get In Touch -->
+      <div class="footer-box">
+        <h3>Get In Touch</h3>
+
+        <p>
+          📧
+          <a href="borthersh407@gmail.com">
+            borthersh407gmail.com
+          </a>
+        </p>
+
+        <p>
+          📞
+          <a href="tel:8377932338">
+            +91 8377932338
+          </a>
+        </p>
+
+        <p>
+          📍
+          <a href="https://www.google.com/maps?q=Los+Angeles+CA" target="_blank">
+            Los Angeles, CA
+          </a>
+        </p>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      <p>© 2026 BEATS Studio. All rights reserved</p>
+      <div>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms of Service</a>
+      </div>
+    </div>
+
+    <div class="developer-credit">
+      <p>Contact to developer -</p>
+      <p>Design And Developed By: <span>Ayaaz Khan</span></p>
+      <p>
+        <a href="tel:+919667462372">+91 9667462372</a>
+      </p>
+    </div>
+  </footer>
+
+
+
+
+
+
+  <script src="script.js"></script>
+</body>
+
+</html>
